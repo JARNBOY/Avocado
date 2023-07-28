@@ -15,6 +15,9 @@
 		FBA21EE92A73BB9A00CADC36 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA21EE82A73BB9A00CADC36 /* HeaderModel.swift */; };
 		FBA21EEB2A73BBDA00CADC36 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA21EEA2A73BBDA00CADC36 /* HeaderData.swift */; };
 		FBA21EED2A73BFAE00CADC36 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA21EEC2A73BFAE00CADC36 /* DishesView.swift */; };
+		FBA21EEF2A73C65C00CADC36 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA21EEE2A73C65C00CADC36 /* FactsView.swift */; };
+		FBA21EF12A73C6A600CADC36 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA21EF02A73C6A600CADC36 /* FactData.swift */; };
+		FBA21EF32A73C6C100CADC36 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA21EF22A73C6C100CADC36 /* FactModel.swift */; };
 		FBB0F6262A6FF8B1006CAE77 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB0F6252A6FF8B1006CAE77 /* AvocadosView.swift */; };
 		FBB0F6282A6FF932006CAE77 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB0F6272A6FF932006CAE77 /* RipeningStagesView.swift */; };
 		FBB0F62A2A6FFA2D006CAE77 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB0F6292A6FFA2D006CAE77 /* SettingsView.swift */; };
@@ -32,6 +35,9 @@
 		FBA21EE82A73BB9A00CADC36 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		FBA21EEA2A73BBDA00CADC36 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		FBA21EEC2A73BFAE00CADC36 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		FBA21EEE2A73C65C00CADC36 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		FBA21EF02A73C6A600CADC36 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
+		FBA21EF22A73C6C100CADC36 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 		FBB0F6252A6FF8B1006CAE77 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
 		FBB0F6272A6FF932006CAE77 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		FBB0F6292A6FFA2D006CAE77 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -92,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				FBA21EEA2A73BBDA00CADC36 /* HeaderData.swift */,
+				FBA21EF02A73C6A600CADC36 /* FactData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -100,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				FBA21EE82A73BB9A00CADC36 /* HeaderModel.swift */,
+				FBA21EF22A73C6C100CADC36 /* FactModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 				FBB0F6292A6FFA2D006CAE77 /* SettingsView.swift */,
 				FBB0F62D2A70058B006CAE77 /* HeaderView.swift */,
 				FBA21EEC2A73BFAE00CADC36 /* DishesView.swift */,
+				FBA21EEE2A73C65C00CADC36 /* FactsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,13 +200,16 @@
 			files = (
 				FB9AB2C52A6D0602008BFCB7 /* ContentView.swift in Sources */,
 				FBB0F62A2A6FFA2D006CAE77 /* SettingsView.swift in Sources */,
+				FBA21EF32A73C6C100CADC36 /* FactModel.swift in Sources */,
 				FBB0F62C2A6FFA8A006CAE77 /* AppView.swift in Sources */,
 				FBB0F6282A6FF932006CAE77 /* RipeningStagesView.swift in Sources */,
 				FB9AB2C32A6D0602008BFCB7 /* AvocadoApp.swift in Sources */,
+				FBA21EF12A73C6A600CADC36 /* FactData.swift in Sources */,
 				FBB0F6262A6FF8B1006CAE77 /* AvocadosView.swift in Sources */,
 				FBA21EE92A73BB9A00CADC36 /* HeaderModel.swift in Sources */,
 				FBA21EEB2A73BBDA00CADC36 /* HeaderData.swift in Sources */,
 				FBA21EED2A73BFAE00CADC36 /* DishesView.swift in Sources */,
+				FBA21EEF2A73C65C00CADC36 /* FactsView.swift in Sources */,
 				FBB0F62E2A70058B006CAE77 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
